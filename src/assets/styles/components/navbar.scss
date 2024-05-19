@@ -1,0 +1,22 @@
+
+.navbar{
+    grid-area: navbar;
+    background-color: rgb(216, 243, 252);
+    padding: 20px;
+    li{
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    &__item{
+        font-size: 25px;
+        color: black;
+        font-weight: 500;
+    }:hover{
+        font-weight: 600;
+    }
+    &__item-active{
+        color: rgb(13, 71, 158);
+
+     }
+
+}

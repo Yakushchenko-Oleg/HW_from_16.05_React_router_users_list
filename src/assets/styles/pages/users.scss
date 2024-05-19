@@ -1,0 +1,27 @@
+.usersContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 20px;
+    background-color:white;
+    .userCard{
+        padding: 10px;
+        background-color: rgb(237, 237, 237);
+        border: none;
+        border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        a{
+            font-size: 25px;
+            color: rgb(13, 71, 158);
+            p{
+                font-size: 1pm;
+            }
+        }
+    }
+    .userCard:hover{
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }.loader{
+        margin:  0 auto;
+    }
+
+}

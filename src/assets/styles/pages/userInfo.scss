@@ -1,0 +1,28 @@
+.userInfo{
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    button{
+        background-color: rgb(216, 243, 252);
+        color: rgb(13, 71, 158);
+        border: none;
+        // border-radius: 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        font-weight: 300;
+        font-size: 20px;
+        padding: 5px 30px;
+        margin: 10px auto;
+        margin-left: 100px;
+    }:hover{
+        cursor: copy;
+        transform: scale(1.002);
+} button:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    
+}

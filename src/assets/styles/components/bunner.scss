@@ -1,0 +1,13 @@
+.bunner{
+    grid-area: bunner;
+    display: flex;
+    flex-direction: row;
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    
+    h2{
+        padding: 15px;
+        color: rgb(13, 71, 158);
+    }
+}

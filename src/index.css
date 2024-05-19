@@ -1,0 +1,21 @@
+@import "./assets/styles/all.scss";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+a{
+  color: inherit;
+}
+#root{
+  display: grid;
+  grid-template-areas: 
+  'bunner bunner'
+  'navbar page'
+  'footer footer';
+  grid-template-columns: 20% 1fr;
+}
+.pagesCont{
+  grid-area: page;
+}
